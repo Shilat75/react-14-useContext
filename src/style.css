@@ -1,0 +1,30 @@
+
+.divCard{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    border: 1px solid pink;
+    margin-left: 10%;
+    gap: 1px;
+  
+}
+.card.light{
+    background-color: antiquewhite;
+    color: white;
+}
+
+.card.dark{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.footer{
+    margin-bottom: auto;
+    background-color: black;
+    width: 100%;
+}
